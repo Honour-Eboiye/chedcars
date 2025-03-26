@@ -4,10 +4,10 @@ import AboutContent from './AboutContent'
 
 const About = () => {
   return (
-    <>
+    <div>
       <AboutHero></AboutHero>
       <AboutContent></AboutContent>
-    </>
+    </div>
   )
 }
 
