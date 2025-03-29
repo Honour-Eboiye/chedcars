@@ -70,11 +70,12 @@ const Contact = () => {
   }
 
   return (
-    <div className='py-4 h-screen max-h-[500px] flex justify-center items-center'>
+    <div className='py-4 h-screen max-h-[500px] flex justify-center items-center bg-gray-800'>
       <form 
-        className='w-[350px] flex flex-col mx-auto gap-5 border-t-4 border-[#2c5157] border-solid px-4 py-6 rounded-lg shadow-xl'
+        className='w-[350px] flex flex-col mx-auto gap-5 border-t-4 border-[#172a2d] border-solid px-4 py-6 rounded-lg shadow-xl bg-white'
         onSubmit={handleSubmit}
       >
+        <h1 className='text-xl font-bold text-center'>Contact Us</h1>
         <p className='text-green-500 mx-auto'>{feedback}</p>
         <p className='text-red-500 mx-auto'>{invalidFeedback}</p>
         <input 

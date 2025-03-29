@@ -45,13 +45,13 @@ const NavBar = () => {
     </div>
     </header>
     {isSidebarVisible && 
-      <div className='absolute w-screen   py-7 bg-gray-800 text-white visible sm:invisible'>
-        <div className='flex flex-col  justify-center items-center gap-9 font-semibold py-5 px-4'>
+      <div className='absolute w-screen h-screen max-h-[500px] py-7 bg-gray-800 text-white visible sm:invisible'>
+        <div className='flex flex-col  justify-center items-center gap-15 font-semibold py-5 px-4'>
           <Link to="/about" className='hover:border-b-2' onClick={handleLink}><h1>ABOUT</h1></Link>
           <Link to="/contact" className='hover:border-b-2' onClick={handleLink}><h1>CONTACT US</h1></Link>
           <Link to="/services" className='hover:border-b-2' onClick={handleLink}><h1>SERVICES</h1></Link>
-          <Link to="*" className='hover:border-b-2' onClick={handleLink}><h1>LOGIN</h1></Link>
-          <Link to="*" className='hover:border-b-2' onClick={handleLink}><h1>SIGN UP</h1></Link>
+          {/* <Link to="/login" className='hover:border-b-2' onClick={handleLink}><h1>LOGIN</h1></Link>
+          <Link to="/signup" className='hover:border-b-2' onClick={handleLink}><h1>SIGN UP</h1></Link> */}
         </div>
       </div>
     }

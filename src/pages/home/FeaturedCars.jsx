@@ -16,7 +16,7 @@ const FeaturedCars = () => {
   }
   return (
     <div className='bg-[#2c5157] py-7' >
-      <h1 className='text-4xl font-bold flex items-center justify-center text-white pb-3 '>Our Available Cars</h1>
+      <h1 className='text-3xl font-semibold flex items-center justify-center text-white p-4 '>Explore Our Featured Cars</h1>
       <div className='flex flex-wrap px-6 gap-5'>
         {
           cars.map((car) =>{

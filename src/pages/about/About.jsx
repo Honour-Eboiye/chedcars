@@ -4,7 +4,7 @@ import AboutContent from './AboutContent'
 
 const About = () => {
   return (
-    <div>
+    <div className='bg-gray-800'>
       <AboutHero></AboutHero>
       <AboutContent></AboutContent>
     </div>

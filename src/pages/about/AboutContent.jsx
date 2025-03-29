@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutContent = () => {
   return (
-    <div className='container flex flex-wrap px-4 items-center justify-evenly  gap-5 my-8'>
+    <div className='container flex flex-wrap px-4 items-center justify-evenly  gap-5 bg-gray-800 text-white'>
       <div className='bg-[url(https://images.unsplash.com/photo-1607870462598-b0e00fa1992e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Q2FyJTIwU3RvcmV8ZW58MHx8MHx8fDA%3D)] w-sm h-[300px] md:w-md bg-no-repeat bg-cover bg-center'>
       
       </div>
